@@ -1,7 +1,7 @@
 export default function Projects() {
     const projects = [
-      { name: "DeCor App", description: "App that allows users to take notes and record audio to assist in memorizing speeches for presentations." },
-      { name: "Kappa", description: "A small forum for IFPR students" },
+      { name: "DeCor App", description: "App that allows users to take notes and record audio to assist in memorizing speeches for presentations.", link:"https://github.com/LeonardoTironi/Teatro" },
+      { name: "Kappa", description: "A small forum for IFPR students", link:"https://rede-kappa.vercel.app/login" },
     ]
   
     return (
@@ -13,7 +13,9 @@ export default function Projects() {
           <ul className="divide-y divide-gray-200">
             {projects.map((project) => (
               <li key={project.name} className="px-4 py-4 sm:px-6">
-                <div className="text-sm font-medium text-indigo-600">{project.name}</div>
+                <a href={project.link} className="text-sm font-medium text-indigo-600 hover:text-indigo-800" target="_blank" rel="noopener noreferrer">
+                  {project.name}
+                </a>
                 <div className="mt-1 text-sm text-gray-500">{project.description}</div>
               </li>
             ))}
