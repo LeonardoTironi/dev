@@ -17,19 +17,21 @@ export default function Skills() {
       skills: [
         { name: "HTML", level: "Experienced" },
         { name: "CSS", level: "Experienced" },
-        { name: "SASS", level: "Intermediate" },
-        { name: "JavaScript", level: "Basic" },
-        { name: "TypeScript", level: "Basic" },
-        { name: "Material UI", level: "Intermediate" },
+        { name: "JavaScript", level: "Experienced" },
+        { name: "Nextjs", level: "Intermediate" },
+        { name: "TypeScript", level: "Intermediate" },
+        { name: "Tailwind", level: "Basic" },
       ],
     },
     {
       title: "Backend Development",
       skills: [
-        { name: "PostgreSQL", level: "Basic" },
-        { name: "Node JS", level: "Intermediate" },
-        { name: "Express JS", level: "Intermediate" },
+        { name: "Python", level: "Experienced" },
+        { name: "Node JS", level: "Basic" },
+        { name: "MongoDB", level: "Intermediate" },
         { name: "Git", level: "Intermediate" },
+        { name: "MySQL", level: "Intermediate" },
+        { name: ".NET", level: "Basic" },
       ],
     },
   ]
