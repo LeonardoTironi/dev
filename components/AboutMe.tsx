@@ -12,7 +12,7 @@ export default function AboutMe() {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/3 mb-6 md:mb-0 flex flex-col items-center">
               <Image
-                src="/imgs/eu.jpg"
+                src="/imgs/eu2.jpg"
                 alt="About Me"
                 width={300}
                 height={300}
