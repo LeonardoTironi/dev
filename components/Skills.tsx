@@ -27,11 +27,21 @@ export default function Skills() {
       title: "Backend Development",
       skills: [
         { name: "Python", level: "Experienced" },
-        { name: "Node JS", level: "Basic" },
-        { name: "MongoDB", level: "Intermediate" },
-        { name: "Git", level: "Intermediate" },
-        { name: "MySQL", level: "Intermediate" },
+        { name: "Nodejs", level: "Basic" },
         { name: ".NET", level: "Basic" },
+      ],
+    },
+    {
+      title: "Software versioning",
+      skills: [
+        {name: "Git", level: "Intermediate"}
+      ],
+    },
+    {
+      title: " Database",
+      skills: [
+        { name: "MySQL", level: "Intermediate" },
+        { name: "MongoDB", level: "Intermediate" },
       ],
     },
   ]
