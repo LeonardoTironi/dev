@@ -27,7 +27,7 @@ export default function Navbar() {
             {items.map((item, index) => (
                 <Navitem key ={index} url ={item.url} label = {item.label} />
             ))}
-            <a href="/curriculo.pdf" className="px-4 py-2 rounded-md text-sm font-medium text-gray-700 bg-white border border-gray-300 hover:bg-gray-50 flex items-center">
+            <a href="/resume.pdf" className="px-4 py-2 rounded-md text-sm font-medium text-gray-700 bg-white border border-gray-300 hover:bg-gray-50 flex items-center">
               <Download className="w-4 h-4 mr-2" />
               CV
             </a>
